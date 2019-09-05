@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body {
+    background-image: url(/Users/anthony/Documents/Images/planets.jpeg);
+    background-size: cover;
+    color: white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 55px;
+}
+
+form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
+#user-weight {
+    font-size: 20px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    margin-right: 30px;
+}
+
+#planets {
+    font-size: 20px;
+    margin-right: 30px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+#calculate-button {
+    font-size: 20px;
+    background: transparent;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#output {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+
+
+
+/* Learned Today 
+    - background of transparent 
+    - border bottom needs the 3 properties aswell 
+    - syntax for placeholder color - ::placeholder
+    - remove oultine on focus
+    - increasing the size of input fields can be with a specified width/height or just increase the font-size
+    - cursor property 
+*/
